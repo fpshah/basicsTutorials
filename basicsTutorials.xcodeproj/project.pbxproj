@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2D2B0F4D18EA9E7500F004F6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D2B0F4C18EA9E7500F004F6 /* main.cpp */; };
 		2D2B0F4F18EA9E7500F004F6 /* basicsTutorials.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2D2B0F4E18EA9E7500F004F6 /* basicsTutorials.1 */; };
+		2D2B0F5718EAA1C900F004F6 /* sortingAlgorithms.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D2B0F5518EAA1C900F004F6 /* sortingAlgorithms.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		2D2B0F4918EA9E7500F004F6 /* basicsTutorials */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = basicsTutorials; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D2B0F4C18EA9E7500F004F6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		2D2B0F4E18EA9E7500F004F6 /* basicsTutorials.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = basicsTutorials.1; sourceTree = "<group>"; };
+		2D2B0F5518EAA1C900F004F6 /* sortingAlgorithms.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sortingAlgorithms.cpp; sourceTree = "<group>"; };
+		2D2B0F5618EAA1C900F004F6 /* sortingAlgorithms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sortingAlgorithms.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,8 @@
 			isa = PBXGroup;
 			children = (
 				2D2B0F4C18EA9E7500F004F6 /* main.cpp */,
+				2D2B0F5518EAA1C900F004F6 /* sortingAlgorithms.cpp */,
+				2D2B0F5618EAA1C900F004F6 /* sortingAlgorithms.h */,
 				2D2B0F4E18EA9E7500F004F6 /* basicsTutorials.1 */,
 			);
 			path = basicsTutorials;
@@ -117,6 +122,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D2B0F5718EAA1C900F004F6 /* sortingAlgorithms.cpp in Sources */,
 				2D2B0F4D18EA9E7500F004F6 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
